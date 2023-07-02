@@ -2,6 +2,7 @@
 
 ## 2. COVID-19 🦠 :
 <p float="center">
+  <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_39_DataScience/output/covid_0.JPG"  width="400" /> 
   <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_39_DataScience/output/covid_1.png"  width="400" />
   <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_39_DataScience/output/covid_2.png"  width="400" />
 <br>
