@@ -21,7 +21,7 @@
 #
 # 3. Show heights for women and men on same plot.
 
-> < img src=()  width="500">
+> < img src=(https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_42_ML/outputs/women%20and%20men%20height.png)  width="500">
 
 ## A. Why is the data of men higher than the data of women?
 
@@ -53,7 +53,7 @@
 
 # 5. fit your OOP-KNN algorithm on the train dataset.
 
-+ + + + + + + + + + + + 
++ + + + + + + + 
 
 
 |  |  K = 3  |  K = 5  |  K = 7 |
@@ -63,8 +63,8 @@
 |4 Features (stature" , "weightkg" , "biacromialbreadth" , "shouldercircumference")|  0.950  | 0.953  | 0.953  |
 
 
-+ + + + + + + + + + + + 
++ + + + + + + +  
 # 
 # 10. Calculate confusion matrix using scikit-learn:
 
-< img src=() width="500" >
+< img src=(https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_42_ML/outputs/conf_matrix.png) width="500" >
