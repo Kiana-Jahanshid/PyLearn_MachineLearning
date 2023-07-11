@@ -21,7 +21,7 @@
 #
 # 3. Show heights for women and men on same plot.
 
-> < img src=(https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_42_ML/outputs/women%20and%20men%20height.png)  width="500">
+![img](https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_42_ML/outputs/women%20and%20men%20height.png)
 
 ## A. Why is the data of men higher than the data of women?
 
@@ -67,4 +67,4 @@
 # 
 # 10. Calculate confusion matrix using scikit-learn:
 
-< img src=(https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_42_ML/outputs/conf_matrix.png) width="500" >
+![img](https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_42_ML/outputs/conf_matrix.png) 
