@@ -1,28 +1,45 @@
 # KNN 
 
 ## 1. fINDING NEMO :
-![img](https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/dashe_nemo_out_3.png)
+<p float = "center" >
+  <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/dashe_nemo_out_3.png" />
+</p>
+
 + Test Phase :
-![img](https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/abjie_nemo_out_3.png)
+<p float = "center" >
+  <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/abjie_nemo_out_3.png" />
+</p>
 
 ## 2. Finding DORY :
+<p float = "center" >
+    <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/output_dory.png" />
+</p>
 
-![img](https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/output_dory.png)
 + Test phase :
-![img](https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/output_DORY_2.png)
+<p float = "center" >
+    <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/output_DORY_2.png" />
+</p>
 
 # 3. IRIS Dataset :
-+ evaluate with different K & their Accuracy results : 
-![img](https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/k_eval.JPG)
++ evaluate with different K & their Accuracy results :
+<p float = "center" >
+    <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/k_eval.JPG" />
+</p>
 
 + confusion matrix for test dataset :
-  ![img](https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/conf_matrix_iris_flowers.png)
+  <p float = "center" >
+    <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/conf_matrix_iris_flowers.png" />
+</p>
 
 
-  # 4. Breast Cancer Dataset :
-  + evaluate with different K & their accuracy :
-  ![img](https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/breast_cancer_ks.JPG)
+# 4. Breast Cancer Dataset :
++ evaluate with different K & their accuracy :
+<p float = "center" >
+    <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/breast_cancer_ks.JPG" />
+</p>
 
 + confusion matrix for test dataset :
-![img](https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/conf_matrix_breast_cancer.png)
+<p float = "center" >
+    <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_43_ML/outputs/conf_matrix_breast_cancer.png" />
+</p>
 
