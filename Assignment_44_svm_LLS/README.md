@@ -26,5 +26,11 @@
 
 # Boston house-prices (Regression) 🏠
 <p float = "center" >
+    <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_44_svm_LLS/outputs/output_confusion_matrix_boston_house_pricing.png" />
+</p>
+
+>
+> 
+<p float = "center" >
     <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_44_svm_LLS/outputs/Figure_3.png" />
 </p>
