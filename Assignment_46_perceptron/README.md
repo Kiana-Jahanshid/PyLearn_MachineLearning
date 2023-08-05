@@ -1,4 +1,4 @@
-# POERCEPTRON
+# PERCEPTRON
 
 ## 1. Employee's salary 💵
 <p float = "center" >
