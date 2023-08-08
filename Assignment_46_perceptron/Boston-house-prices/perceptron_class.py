@@ -3,41 +3,66 @@ import matplotlib.pyplot as plt
 
 
 class Perceptron:
-    def __init__(self, input_size, lr_w , lr_b , epochs):
+    def __init__(self, lr_w , lr_b , epochs):
         self.w = None
         self.bias = None
-        self.input_size = input_size
         self.lr_w = lr_w
         self.lr_b= lr_b
         self.epochs = epochs
 
 
     def fit(self, X_train, Y_train):
-        #n_samples, n_features = X_train.shape
-
-        self.W = np.random.rand(1 , 1)
+        n_samples, n_features = X_train.shape
+        print(n_features)
+        self.W = np.random.rand(n_features)
         self.Bias = np.random.rand(1 , 1)
         fig , (ax1 , ax2) = plt.subplots(2,1 ,constrained_layout=True)
         losses = []
         for j in range(self.epochs):
-            for i in range(X_train.shape[0]):
-                x = X_train[i]
+            for i in range(len(X_train)):
+                x1 = X_train[i,0]
+                x2 = X_train[i,1]
                 y = Y_train[i]
+                print(x1)
+                print(x2)
+                print(y)
+                print(self.W)
+                print(self.W[0])
 
-                y_pred = x @ self.W
+                y_pred = x1 * self.W[0] + x2 * self.W[1]
                 error = y - y_pred
 
                 # SGD = it's a update formula (optimization)
-                self.W = self.W + (error * x * self.lr_w)
+                self.W1 = self.W + (error * x1 * self.lr_w)
+                self.W2 = self.W + (error * x2 * self.lr_w)
+               
                 self.Bias = self.Bias + (error * self.lr_b)
 
 
-                Y_pred = X_train * self.W + self.Bias
-                ax1.clear()
-                ax1.scatter(X_train , Y_train , color="blue" , alpha = 0.6)
-                ax1.plot(X_train , Y_pred , color="red")
-                ax1.set_ylabel("Whole weight ")
-                ax1.set_xlabel("Shucked weight")
+                #Y_pred = x1 @ self.W1 + x2 @ self.W2 + self.Bias
+                # ax1.clear()
+                # ax1.scatter(X_train , Y_train , color="blue" , alpha = 0.6)
+                # ax1.plot(X_train , Y_pred , color="red")
+                # ax1.set_ylabel("Whole weight ")
+                # ax1.set_xlabel("Shucked weight")
+                a, b = np.meshgrid(X_train[:,0], X_train[:,1])
+                print("------------")
+                print(a)
+                print(b)
+                print(self.W2)
+                print(self.W1)
+                print(self.Bias)
+
+                plane = self.W1 * a + self.W2 * b + self.Bias 
+
+
+
+                fig = plt.figure()
+                ax = plt.axes(projection='3d')
+                ax.plot_surface(a, b, plane , alpha= 0.2)
+                plt.scatter(X_train[:,0] , X_train[:,1] , Y_train , label="data" )
+                plt.legend()
+                plt.show()
 
             # MAE loss 
             #loss = np.mean(np.abs(error))

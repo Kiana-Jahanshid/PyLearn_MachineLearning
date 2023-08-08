@@ -8,7 +8,7 @@ import time
 
 
 
-data = pd.read_csv("Assignment_46_perceptron\weight-height.csv")
+data = pd.read_csv("weight-height.csv")
 
 X = data["Height"].values
 Y = data["Weight"].values
@@ -51,6 +51,8 @@ for j in range(Epoch):
         #time.sleep(0.5)
 
         Y_pred = X_train * W + Bias
+        
+
         ax1.clear()
         ax1.scatter(X_train , Y_train , color="blue")
         ax1.plot(X_train , Y_pred , color="red")
