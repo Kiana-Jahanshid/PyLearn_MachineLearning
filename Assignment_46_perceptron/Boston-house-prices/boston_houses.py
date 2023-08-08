@@ -5,8 +5,8 @@ from sklearn.model_selection import train_test_split
 from perceptron_class_boston import Perceptron
 
 fig = plt.figure(figsize=(8,7))
-ax1 = fig.add_subplot( projection="3d")
-#ax2 = fig.add_subplot(212)
+ax1 = fig.add_subplot(211 , projection="3d")
+ax2 = fig.add_subplot(212)
 
 
 class Perceptron:
@@ -57,11 +57,11 @@ class Perceptron:
             loss = np.mean(np.abs(ERROR**2))
             losses.append(loss)
 
-            # ax2.clear()
-            # ax2.plot(losses)
-            # ax2.set_xlabel("Epochs")
-            # ax2.set_ylabel("LOSS")
-            # ax2.set_title("BOSTON HOUSE PRICE")
+            ax2.clear()
+            ax2.plot(losses)
+            ax2.set_xlabel("Epochs")
+            ax2.set_ylabel("LOSS")
+            ax2.set_title("BOSTON HOUSE PRICE")
             plt.pause(2)
 
 
