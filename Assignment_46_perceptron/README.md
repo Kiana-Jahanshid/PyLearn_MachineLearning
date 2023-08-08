@@ -21,3 +21,9 @@
     <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_46_perceptron/Abalone/outputs/2_res_abalone.JPG" />
 </p>
 
+## 2.BOSTON House Price
+
+<p float = "center" >
+    <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_46_perceptron/Boston-house-prices/outputs/1_8.JPG
+" />
+</p>
