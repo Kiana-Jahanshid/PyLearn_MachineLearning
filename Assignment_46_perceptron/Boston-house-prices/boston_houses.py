@@ -35,8 +35,8 @@ class Perceptron:
                 self.W = self.W + (error * X * self.lr_w)
                 self.Bias = self.Bias + (error * self.lr_b)
 
-                Y_pred = X_test * self.W + self.Bias
-                ERROR =   Y_test -  Y_pred
+                Y_pred = X_train * self.W + self.Bias
+                ERROR =   Y_train -  Y_pred
 
 
             a, b = np.meshgrid(X_train[:,0], X_train[:,1])
