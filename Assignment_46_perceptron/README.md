@@ -7,7 +7,6 @@
 
 <p float = "center" >
     <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_46_perceptron/Employee_salary/outputs/1_RESULT_f_lr0.00001_300.JPG" , width="450" />
-    <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_46_perceptron/Employee_salary/outputs/1_RESULT_f_lr0.00001_300.JPG" , width="650" />
 </p>
 
 
