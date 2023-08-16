@@ -36,6 +36,12 @@
 
 # 2.Weather Prediction ☔❄⛅⛈🌤
 
+## table of mean of temperature in each day of year :
+<p float = "center" >
+    <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_47_perceptron/weather%20history/output/mean_of_temp.JPG
+" />
+</p>
+
 <p float = "center" >
     <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_47_perceptron/weather%20history/output/2_output__3.png" />
     <img src="https://github.com/kiana-jahanshid/PyLearn_MachineLearning/blob/main/Assignment_47_perceptron/weather%20history/output/2_output__4.png" />
