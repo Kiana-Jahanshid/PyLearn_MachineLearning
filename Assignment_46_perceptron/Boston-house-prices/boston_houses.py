@@ -20,7 +20,7 @@ class Perceptron:
 
     def fit(self, X_train, Y_train):
         n_features = X_train.shape[1]
-        self.W = np.random.rand(n_features)
+        self.W = np.random.rand(n_features) 
         self.Bias = np.random.rand(1 , 1)
 
         losses = []
@@ -34,12 +34,12 @@ class Perceptron:
                 self.W = self.W + (error * X * self.lr_w)
                 self.Bias = self.Bias + (error * self.lr_b)
 
-                Y_pred = X_test * self.W + self.Bias
-                ERROR =   Y_test -  Y_pred
-
+                Y_pred = X_train * self.W + self.Bias
+                ERROR =   Y_train -  Y_pred
 
             a, b = np.meshgrid(X_train[:,0], X_train[:,1])
             plane = self.W[0] *  a + self.W[1] * b 
+            print(self.W[0] , self.W[1])
             ax1.clear()
             ax1.scatter(X_train[:,0] , X_train[:,1] ,  Y_train , color="green" , alpha = 0.6)
             ax1.plot_surface(a, b, plane , alpha= 0.2)
